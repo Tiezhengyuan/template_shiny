@@ -1,0 +1,17 @@
+faicons
+shiny
+shinywidgets
+numpy
+pandas
+matploblib
+scipy
+scikit-learn
+jupyter
+notebook
+seaborn
+plotly
+chatlas
+google-genai
+duckdb
+statsmodels
+ridgeplot
