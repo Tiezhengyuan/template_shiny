@@ -1,3 +1,9 @@
+'''
+dashboard-tips
+'''
+from shiny import reactive, render
+# from shiny.express import input, ui
+
 import faicons as fa
 import plotly.express as px
 
@@ -5,13 +11,13 @@ import plotly.express as px
 from shared import app_dir, tips
 from shinywidgets import render_plotly
 
-from shiny import reactive, render
-from shiny.express import input, ui
+from components import *
 
 bill_rng = (min(tips.total_bill), max(tips.total_bill))
 
 # Add page title and sidebar
 ui.page_opts(title="Restaurant tipping", fillable=True)
+
 
 with ui.sidebar(open="desktop"):
     ui.input_slider(

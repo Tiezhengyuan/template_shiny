@@ -1,0 +1,34 @@
+h1 {
+  background-color: burlywood;
+  text-align: center;
+  margin: 10px 1;
+  padding: 10px;
+
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+:root {
+  --bslib-sidebar-main-bg: #f8f8f8;
+}
+
+.popover {
+  --bs-popover-header-bg: #222;
+  --bs-popover-header-color: #fff;
+}
+
+.popover .btn-close {
+  filter: var(--bs-btn-close-white-filter);
+}
+
+.table-title{
+  text-align: center;
+  background-color: beige;
+}
+
+.table-footer{
+  text-align: right;
+  background-color: cornsilk;
+}
